@@ -17,7 +17,7 @@
         }
         .heading{
             font-size: 40px;
-            text-align: center;
+            text-align:center;
         }
         body{
             background-color: seagreen;
@@ -28,6 +28,10 @@
             color:seagreen;
             background-color: white;
         }
+        p{
+            text-align: center;
+            font-size: 25Px;
+        }
     </style>
     </head>
     <body>
@@ -36,16 +40,26 @@
                 <h1>A Website About Vraj</h1>
                 <img src="./img/Subway.jpg" width="300">
             </div>
-            <table>
-                <tr>
-                    <th><h1 class="heading">My Favorite Hobbies</h1></th>
-                    <th><h1 class="heading">My Favorite Outdoor Activities</h1></th>
-                </tr>
-                <tr>
-                    <td>Some of my favorite hobbies include collecting HotWheels, playing video games, and riding my bike.</td>
-                    <td>Some of my favorite outdoor activities include playing basketball with my friends, riding my bike, and going on walks alone.</td>
-                </tr>
-            </table>
+            </div>
+            <div class="container">
+            <div class="row">
+            <div class="col-xs-6">
+                <h1 class="heading">My Favorite Hobbies</h1>
+            </div>
+            <div class="col-xs-6">
+                <h1 class="heading">My Favorite Outdoor Activities</h1>
+            </div>
+            </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <p>Some of my favorite hobbies include collecting HotWheels, playing video games, and riding my bike.</p>
+                    </div>
+                    <div class="col-xs-6">
+                        <p>Some of my favorite outdoor activities include playing basketball with my friends, riding my bike, and going on walks alone.</p>
+                    </div>
+                </div>
+            </div>
+           
         </div>
     </body>
 </html>
